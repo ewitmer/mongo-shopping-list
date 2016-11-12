@@ -8,3 +8,10 @@ addons:
     - mongodb-3.2-precise
     packages:
     - mongodb-org-server
+deploy:
+  provider: heroku
+  api_key:
+    secure: A02Sgbx5dI3N6R9NrCWklRuTlRye6Za1BpEaNGD8aFxCvpEdGopOKwVYPGu7hA2ZJAyPW9aSOjilGI0h6eK/ShF7rxAXwmIfi9Rta3R1O1Ho1bLJSr6ZLcjmeQVAMfVT9R1Mynr/rg2wlhpVTtnPV1tFLLmjc1hKPf7S4nQ5RCH8d6umxhNZXhiNu0l1y9AYNNMYszauCMAC3VXKWwfPnmtEUglrrkNH4/U2yyset6fE+KCBCN4K/64TmVp5LqDszZ2HmsjqnyUMV8vyxxi+NsO8u8qdUBIZzzqQEnLlG5TXLeejjLFXn0bNnn4PBnfjLrSOeZY1yu+jAZzySyPklyUqiGzpjjJ5189qAwcG5W76/4YtGp6Zk60iKaN2RLbNqxEAMT4WLFUoYg2Z8TbszfWJw7DBxBxe9FGB+d6NPFT6xjrTJwjeB4z1coEdS4MwnOpNs6rkmwEAF3KDPUD8a/ElZpn28pQXm6PxgTMHlSdriSPBQ4CUH6oyFmomwS+ixBkczPVNU9p5EXs/D8w3ieZJiZBx9D20N0ZYWNeW6pgqm/GMzldw18R78KpABmDRRyih1AMRZWKhMhTJenbfQ80FfstOiBTKEQRECklXmxJKP8zZuXWlcj8KijHXQ+bVs1RUGm/NELJPjpHJ6Ff916M03DtocQfNDiDUZ/o5Tjg=
+  app: evening-dusk-62012
+  on:
+    repo: ewitmer/mongo-shopping-list
